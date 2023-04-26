@@ -1,0 +1,8 @@
+---
+- name: "Install common packages"
+  apt: 
+    name:
+      - pydf
+      - tree
+      - mc
+    state: latest
